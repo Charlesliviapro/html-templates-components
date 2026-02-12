@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Components Library - Index</title>
+    <link rel="stylesheet" href="css/components.css">
+    <style>
+        .index-hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        .index-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .component-section {
+            padding: 3rem 0;
+        }
+        .component-section:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        .component-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        .component-link {
+            display: block;
+            padding: 1.5rem;
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        .component-link:hover {
+            border-color: #007bff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .component-link h3 {
+            color: #007bff;
+            margin-bottom: 0.5rem;
+        }
+        .component-link p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background-color: #007bff;
+            color: white;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="index-hero">
+        <div class="container">
+            <h1>HTML Components Library</h1>
+            <p>A comprehensive collection of reusable HTML components for modern web development</p>
+            <div style="margin-top: 2rem;">
+                <a href="examples/complete-landing-page.html" class="btn btn-outline">View Complete Example</a>
+                <a href="notes.md" class="btn btn-outline" style="margin-left: 1rem;">Read Documentation</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bars Section -->
+    <section class="component-section">
+        <div class="container">
+            <h2>Navigation Bars</h2>
+            <p>Sticky navigation components with different styles</p>
+            <div class="component-links">
+                <a href="components/navbars/navbar-standard.html" class="component-link">
+                    <span class="badge">Navbar</span>
+                    <h3>Standard Navbar</h3>
+                    <p>Clean, modern navigation bar with sticky positioning</p>
+                </a>
+                <a href="components/navbars/navbar-transparent.html" class="component-link">
+                    <span class="badge">Navbar</span>
+                    <h3>Transparent Navbar</h3>
+                    <p>Perfect for overlaying on hero images</p>
+                </a>
+                <a href="components/navbars/navbar-dark.html" class="component-link">
+                    <span class="badge">Navbar</span>
+                    <h3>Dark Navbar</h3>
+                    <p>Minimalist dark theme navigation</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="component-section">
+        <div class="container">
+            <h2>Footers</h2>
+            <p>Footer components for different website needs</p>
+            <div class="component-links">
+                <a href="components/footers/footer-simple.html" class="component-link">
+                    <span class="badge">Footer</span>
+                    <h3>Simple Footer</h3>
+                    <p>Minimal footer for landing pages</p>
+                </a>
+                <a href="components/footers/footer-columns.html" class="component-link">
+                    <span class="badge">Footer</span>
+                    <h3>Multi-Column Footer</h3>
+                    <p>Comprehensive footer with link sections</p>
+                </a>
+                <a href="components/footers/footer-social.html" class="component-link">
+                    <span class="badge">Footer</span>
+                    <h3>Social Media Footer</h3>
+                    <p>Footer with social media icons</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="component-section">
+        <div class="container">
+            <h2>Card Components</h2>
+            <p>Versatile cards for content, products, and profiles</p>
+            <div class="component-links">
+                <a href="components/cards/card-basic.html" class="component-link">
+                    <span class="badge">Card</span>
+                    <h3>Basic Card</h3>
+                    <p>Simple card with title and text</p>
+                </a>
+                <a href="components/cards/card-image.html" class="component-link">
+                    <span class="badge">Card</span>
+                    <h3>Image Card</h3>
+                    <p>Card with featured image</p>
+                </a>
+                <a href="components/cards/card-product.html" class="component-link">
+                    <span class="badge">Card</span>
+                    <h3>Product Card</h3>
+                    <p>E-commerce product card with price</p>
+                </a>
+                <a href="components/cards/card-profile.html" class="component-link">
+                    <span class="badge">Card</span>
+                    <h3>Profile Card</h3>
+                    <p>Team member or user profile card</p>
+                </a>
+                <a href="components/cards/card-grid.html" class="component-link">
+                    <span class="badge">Layout</span>
+                    <h3>Card Grid</h3>
+                    <p>Responsive grid layout for cards</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Forms Section -->
+    <section class="component-section">
+        <div class="container">
+            <h2>Form Components</h2>
+            <p>Beautiful, functional forms for user interaction</p>
+            <div class="component-links">
+                <a href="components/forms/form-login.html" class="component-link">
+                    <span class="badge">Form</span>
+                    <h3>Login Form</h3>
+                    <p>User authentication form</p>
+                </a>
+                <a href="components/forms/form-signup.html" class="component-link">
+                    <span class="badge">Form</span>
+                    <h3>Signup Form</h3>
+                    <p>User registration form</p>
+                </a>
+                <a href="components/forms/form-contact.html" class="component-link">
+                    <span class="badge">Form</span>
+                    <h3>Contact Form</h3>
+                    <p>Get in touch with users</p>
+                </a>
+                <a href="components/forms/form-search.html" class="component-link">
+                    <span class="badge">Form</span>
+                    <h3>Search Form</h3>
+                    <p>Inline search component</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero/Feature Sections -->
+    <section class="component-section">
+        <div class="container">
+            <h2>Hero & Feature Sections</h2>
+            <p>Eye-catching sections for landing pages</p>
+            <div class="component-links">
+                <a href="components/heroes/hero-fullwidth.html" class="component-link">
+                    <span class="badge">Hero</span>
+                    <h3>Full-Width Hero</h3>
+                    <p>Gradient hero with centered content</p>
+                </a>
+                <a href="components/heroes/hero-image.html" class="component-link">
+                    <span class="badge">Hero</span>
+                    <h3>Hero with Background</h3>
+                    <p>Full-screen background image hero</p>
+                </a>
+                <a href="components/heroes/hero-split.html" class="component-link">
+                    <span class="badge">Hero</span>
+                    <h3>Split Hero</h3>
+                    <p>Two-column layout with image</p>
+                </a>
+                <a href="components/heroes/features-section.html" class="component-link">
+                    <span class="badge">Features</span>
+                    <h3>Features Section</h3>
+                    <p>Showcase key features with icons</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-simple">
+            <div class="container">
+                <p>&copy; 2024 HTML Components Library. Free to use for personal and commercial projects.</p>
+                <p>Built with ❤️ for the web development community</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

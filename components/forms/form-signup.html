@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form Component</title>
+    <link rel="stylesheet" href="../../css/components.css">
+</head>
+<body style="background-color: #f8f9fa; padding: 2rem 0;">
+    <div class="container">
+        <h1 style="text-align: center; margin-bottom: 2rem;">Signup Form</h1>
+        
+        <!-- Signup Form -->
+        <div class="form-block">
+            <h2>Create Account</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-control" placeholder="Create a password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" class="form-control" placeholder="Confirm your password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+                <div class="form-link">
+                    Already have an account? <a href="#login">Sign in</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
