@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Components Demo</title>
+    <link rel="stylesheet" href="../styles/components.css">
+</head>
+<body style="background-color: var(--light-color); padding: 2rem 0;">
+    <div class="container">
+        <h1 style="text-align: center; margin-bottom: 3rem; color: var(--dark-color);">Card Components</h1>
+        
+        <div class="card-grid">
+            <!-- Basic Card -->
+            <div class="card">
+                <div class="card-header">Basic Card</div>
+                <div class="card-body">
+                    <p class="card-text">This is a basic card with header, body, and footer.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Action</a>
+                </div>
+            </div>
+
+            <!-- Image Card -->
+            <div class="card">
+                <img src="https://via.placeholder.com/400x200" alt="Card image" class="card-image">
+                <div class="card-body">
+                    <h3 class="card-title">Image Card</h3>
+                    <p class="card-text">Card with image at the top.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-outline">View</a>
+                </div>
+            </div>
+
+            <!-- Feature Card -->
+            <div class="card">
+                <div class="card-body" style="text-align: center;">
+                    <div style="font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem;">⚡</div>
+                    <h3 class="card-title">Feature Card</h3>
+                    <p class="card-text">Highlight key features.</p>
+                </div>
+            </div>
+
+            <!-- Product Card -->
+            <div class="card">
+                <img src="https://via.placeholder.com/400x300" alt="Product" class="card-image">
+                <div class="card-body">
+                    <h3 class="card-title">Product Card</h3>
+                    <p class="card-text">Perfect for e-commerce.</p>
+                    <p style="font-size: 1.5rem; font-weight: bold; color: var(--primary-color); margin-top: 1rem;">$99.99</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Demo - HTML Components</title>
+    <link rel="stylesheet" href="../styles/components.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-brand">ComponentLib</a>
+            <ul class="navbar-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#components">Components</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <h1 class="hero-title">Reusable HTML Components</h1>
+            <p class="hero-subtitle">Build beautiful websites faster with our pre-built components</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary btn-large">Get Started</a>
+                <a href="#" class="btn btn-outline btn-large">View Components</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="feature-section">
+        <div class="feature-container">
+            <h2 class="feature-title">Why Choose Our Components</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Fast Development</h3>
+                    <p>Save time with ready-to-use components that you can easily customize.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Beautiful Design</h3>
+                    <p>Modern, clean designs that work great on any website or application.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📱</div>
+                    <h3>Fully Responsive</h3>
+                    <p>All components are mobile-friendly and work on all screen sizes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Card Grid Section -->
+    <section style="padding: 4rem 2rem; background-color: #fff;">
+        <div class="container">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem;">Featured Products</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200" alt="Product 1" class="card-image">
+                    <div class="card-body">
+                        <h3 class="card-title">Starter Package</h3>
+                        <p class="card-text">Perfect for individuals and small projects just getting started.</p>
+                        <p style="font-size: 1.5rem; font-weight: bold; color: var(--primary-color); margin-top: 1rem;">$29/mo</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary btn-block">Choose Plan</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200" alt="Product 2" class="card-image">
+                    <div class="card-body">
+                        <h3 class="card-title">Professional Package</h3>
+                        <p class="card-text">Ideal for growing businesses and teams that need more features.</p>
+                        <p style="font-size: 1.5rem; font-weight: bold; color: var(--primary-color); margin-top: 1rem;">$79/mo</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary btn-block">Choose Plan</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200" alt="Product 3" class="card-image">
+                    <div class="card-body">
+                        <h3 class="card-title">Enterprise Package</h3>
+                        <p class="card-text">Advanced features and support for large organizations.</p>
+                        <p style="font-size: 1.5rem; font-weight: bold; color: var(--primary-color); margin-top: 1rem;">$199/mo</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary btn-block">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section style="padding: 4rem 2rem; background-color: var(--light-color);">
+        <div class="form-container">
+            <h2 style="text-align: center; margin-bottom: 2rem; color: var(--dark-color);">Get In Touch</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" name="message" class="form-control" rows="5" placeholder="Your message here..." required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>ComponentLib</h3>
+                <p>Building beautiful websites with reusable components.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#components">Components</a></li>
+                    <li><a href="#docs">Documentation</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#support">Support</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: info@componentlib.com</li>
+                    <li>Phone: +1 (555) 123-4567</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ComponentLib. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
