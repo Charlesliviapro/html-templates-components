@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Components Demo</title>
+    <link rel="stylesheet" href="../styles/components.css">
+</head>
+<body style="background-color: var(--light-color); padding: 2rem 0;">
+    <div class="container">
+        <h1 style="text-align: center; margin-bottom: 3rem; color: var(--dark-color);">Form Components</h1>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto;">
+            <!-- Contact Form -->
+            <div class="form-container">
+                <h2 style="text-align: center; margin-bottom: 2rem; color: var(--dark-color);">Contact Form</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="contact-name" class="form-label">Name</label>
+                        <input type="text" id="contact-name" class="form-control" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email" class="form-label">Email</label>
+                        <input type="email" id="contact-email" class="form-control" placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message" class="form-label">Message</label>
+                        <textarea id="contact-message" class="form-control" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send</button>
+                </form>
+            </div>
+
+            <!-- Login Form -->
+            <div class="form-container">
+                <h2 style="text-align: center; margin-bottom: 2rem; color: var(--dark-color);">Login Form</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="login-email" class="form-label">Email</label>
+                        <input type="email" id="login-email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password" class="form-label">Password</label>
+                        <input type="password" id="login-password" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="remember">
+                            <label for="remember">Remember me</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
